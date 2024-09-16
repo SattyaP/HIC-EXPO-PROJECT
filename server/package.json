@@ -1,0 +1,36 @@
+{
+  "name": "rock-paper-hic",
+  "version": "1.0.0",
+  "description": "An game rock paper scissors for demo hic",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SattyaP/PaperRock-HIC-Games.git"
+  },
+  "keywords": [
+    "rock",
+    "paper",
+    "scissors",
+    "game",
+    "realtime",
+    "websocket"
+  ],
+  "author": "SattyaP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SattyaP/PaperRock-HIC-Games/issues"
+  },
+  "homepage": "https://github.com/SattyaP/PaperRock-HIC-Games#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "nodemon": "^3.1.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "socket.io": "^4.7.5",
+    "uuid": "^10.0.0"
+  }
+}
