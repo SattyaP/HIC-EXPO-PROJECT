@@ -65,7 +65,7 @@ function getStart(choosen = "") {
 			
 			setTimeout(() => {
 				location.reload();
-			}, 5000);
+			}, 3000);
 		} else if (botData.score == 3) {
 			Swal.fire({
 				icon: 'error',
@@ -75,7 +75,7 @@ function getStart(choosen = "") {
 			
 			setTimeout(() => {
 				location.reload();
-			}, 5000);
+			}, 3000);
 		}
 	}
 }
